@@ -7,4 +7,6 @@ def feast(beast, dish):
         return True
     else:
         return False
- 
+
+def get_average(marks):
+    return sum(marks) // len(marks)
