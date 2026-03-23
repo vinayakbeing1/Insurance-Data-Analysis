@@ -19,3 +19,12 @@ def job_matching(candidate, job):
         raise ValueError("Missing salary info") 
     min_salary= candidate['min_salary'] * 0.9
     return min_salary<= job['max_salary']
+
+
+def close_compare(a, b, margin=0):
+    if abs(a-b) <= margin:
+        return 0
+    if a < b:
+        return -1
+    else:
+        return 1
