@@ -10,3 +10,12 @@ def feast(beast, dish):
 
 def get_average(marks):
     return sum(marks) // len(marks)
+
+
+def job_matching(candidate, job):
+    'min_salary'== 120000
+    'max_salary'== 140000
+    if 'min_salary' not in candidate or 'max_salary' not in job:
+        raise ValueError("Missing salary info") 
+    min_salary= candidate['min_salary'] * 0.9
+    return min_salary<= job['max_salary']
