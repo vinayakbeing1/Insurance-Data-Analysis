@@ -26,3 +26,11 @@ WHERE id IN (
     SELECT department_id
     FROM special_sales
 );
+
+
+
+
+SELECT 
+    SUBSTRING(project, 1, commits) AS project,
+    RIGHT(address, contributors) AS address
+FROM repositories;
