@@ -28,3 +28,9 @@ def close_compare(a, b, margin=0):
         return -1
     else:
         return 1
+
+
+##24/03/2026
+def quarter_of(month):
+    return (month - 1) // 3 + 1  
+  
