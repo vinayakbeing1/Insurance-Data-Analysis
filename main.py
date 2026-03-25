@@ -42,4 +42,12 @@ def triple_trouble(one, two, three):
         result = one[i] + two[i] + three[i]
     return result
 
-  
+def make_upper_case(s):
+  return s.upper()
+
+def square_digits(num):
+    return int(''.join(str(int(d)**2) for d in str(num)))
+
+
+def duplicate_count(text):
+    return sum(text.lower().count(c) > 1 for c in set(text.lower()))
