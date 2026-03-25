@@ -32,5 +32,14 @@ def close_compare(a, b, margin=0):
 
 ##24/03/2026
 def quarter_of(month):
-    return (month - 1) // 3 + 1  
+    return (month - 1) // 3 + 1
+
+#25/03/2026
+
+def triple_trouble(one, two, three):
+    result = ""
+    for i in range(len(one)):
+        result = one[i] + two[i] + three[i]
+    return result
+
   
