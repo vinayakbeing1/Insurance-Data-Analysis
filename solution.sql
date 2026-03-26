@@ -38,3 +38,12 @@ FROM repositories;
 
 SELECT price * amount AS total 
 FROM items;
+
+
+SELECT s, SUBSTRING(s, 2, LENGTH(s) - 2) AS res 
+FROM removechar
+
+SELECT *, floor(hours / 2) as liters FROM cycling
+
+SELECT a, b, 180 - (a + b) AS res FROM otherangle;
+
