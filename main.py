@@ -63,3 +63,13 @@ print(name)
 
 def no_boring_zeros(n):
     return int(str(n).rstrip('0')) if n !=0 else 0
+
+def sum_factorial(arr):
+    total = 0
+    
+    for n in arr:
+        fact = 1
+        for i in range(1, n + 1):
+            fact *= i     
+        total += fact 
+    return total
