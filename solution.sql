@@ -28,9 +28,13 @@ WHERE id IN (
 );
 
 
-
+#26/03/2026
 
 SELECT 
     SUBSTRING(project, 1, commits) AS project,
     RIGHT(address, contributors) AS address
 FROM repositories;
+
+
+SELECT price * amount AS total 
+FROM items;
