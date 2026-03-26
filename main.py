@@ -51,3 +51,12 @@ def square_digits(num):
 
 def duplicate_count(text):
     return sum(text.lower().count(c) > 1 for c in set(text.lower()))
+
+##26/03/2026
+
+
+a = "code"
+b = "wa.rs"
+
+name = a + b
+print(name)
