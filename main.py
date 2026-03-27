@@ -66,6 +66,13 @@ def no_boring_zeros(n):
 
 def sum_factorial(arr):
     total = 0
+
+  #27/03/2026
+def find_average(numbers):
+    if len(numbers)==0:
+        return 0
+    return sum(numbers)/len(numbers)
+  
     
     for n in arr:
         fact = 1
