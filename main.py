@@ -80,3 +80,7 @@ def find_average(numbers):
             fact *= i     
         total += fact 
     return total
+
+
+def xo(s):
+    return s.lower().count('x')==s.lower().count('o')
