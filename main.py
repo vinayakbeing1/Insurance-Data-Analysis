@@ -84,3 +84,7 @@ def find_average(numbers):
 
 def xo(s):
     return s.lower().count('x')==s.lower().count('o')
+
+
+def nth_even(n):
+    return (n-1)*2
